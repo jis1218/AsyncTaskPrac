@@ -10,7 +10,7 @@ import org.w3c.dom.Text;
 public class MainActivity extends AppCompatActivity {
     TextView textView;
     /**
-     * AsyncRTask = 세개의 기본함수를 지원하는 Thread
+     * AsyncTask = 세개의 기본함수를 지원하는 Thread
      * 1. onPreExecute : doInBackground()함수가 실행되기 전에 실행되는 함수
      * 2. doInBackground : 백그라운드(sub thread)에서 코드를 실행하는 함수
      * 3. onPostExecute : doInBackground() 함수가 실행된 후에 실행되는 함수
